@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; 
+  color: #333; 
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #004080; 
+}
+
+#app {
+  background-color: #fff; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.prenda-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.prenda-list h2 {
+  margin-top: 20px;
+}
+
+.prenda-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e0e0e0; 
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prenda-list li .delete-button {
+  background-color: #ff6666; 
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.prenda-list li .delete-button:hover {
+  background-color: #cc0000; 
+}
+
+form {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #004080; 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #003366; 
+}
